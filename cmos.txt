@@ -1,0 +1,23 @@
+1. Basics of VLSI
+2. PPA aspects
+3. STA & DTA differences
+4. STA  
+5. latching and flipflops
+6. Time borrowing 
+7. Setup & hold
+8. MAX & MIN delays
+9. Clock 
+
+in vlsi world, flipflop is a register to store a data for a long time.Latch is triggred by a enable pin it can stay acitve for a entire pulse width(entire clock period) it helps in converging the longest path.
+all design in vlsi cant be replaced by a latch. Around 90-95% are flipflops others are latches
+
+Time Borrowing: 
+transaprenacy window: 
+the latch based designed provided they are on the same phase.
+the concpet of latch based is dis-adv to the setup time and doesnt affect to hold time
+max borrow time=max.pulse width - datapath delay of the next state - library setup time.
+negative Borrow time: 
+
+Setup & Hold: 
+MAX delay is for the setup
+MIN delay is for the hold
